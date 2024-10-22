@@ -11,7 +11,7 @@ let HeaderContainerStyle = {
   return (
     <>
       <div className="container_fluid" style={HeaderContainerStyle}>
-        <h1>Portfolio</h1>
+        <h1>Usman</h1>
       </div>
     </>
   );
