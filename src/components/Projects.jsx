@@ -4,9 +4,9 @@ import Expertise from './Expertise.jsx';
 function Projects() {
 
     let projectContainer = {
-        height: "85vh",
+        height: "92vh",
         with: "100%",
-        marginBottom: "50px",
+        marginBottom: "40px",
         backgroundColor: "violet",
         borderTop: "1px solid black",
     }
@@ -29,15 +29,13 @@ function Projects() {
         height: "100%",
         width: "88%",
         margin: "0 auto",
-        paddingTop: "30px",
-        backgroundColor: "red"
+        paddingTop: "30px"
     }
 
     let productContent = {
-        marginTop: "30px",
+        marginTop: "50px",
         width: "100%",
-        height: "72vh",
-        backgroundColor: "blue",
+        height: "75vh",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -46,7 +44,6 @@ function Projects() {
     let productContentFirst = {
         height: "100%",
         width: "100%",
-        backgroundColor: "green",
         display: "flex",
         justifyContent: "space-between",
         alignItems: "center",
@@ -60,8 +57,14 @@ function Projects() {
         height:"100%",
         width:"100%",
         backgroundColor:"#f0efff",
+        overflow:"hidden"
     }
-
+    let productImages = {
+        height:"100%",
+        width:"80%",
+        marginLeft:"45px",
+        marginTop:"30px"
+    }
 
 
 
@@ -78,14 +81,21 @@ function Projects() {
 
                             <section style={productContentItems}>
                                 <div style={productContentItemsColor}>
-                                    
+                                    <img style={productImages} src="/images/projects/01.png" alt="" />
                                 </div>
                             </section>
+
                             <section style={productContentItems}>
-                                <div style={productContentItemsColor}></div>
+                            <div style={productContentItemsColor}>
+                                    <img style={productImages} src="/images/projects/02.png" alt="" />
+                                </div>
                             </section>
+
+
                             <section style={productContentItems}>
-                                <div style={productContentItemsColor}></div>
+                            <div style={productContentItemsColor}>
+                                    <img style={productImages} src="/images/projects/03.png" alt="" />
+                                </div>
                             </section>
 
                         </div>
