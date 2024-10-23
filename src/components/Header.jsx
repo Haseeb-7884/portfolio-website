@@ -35,7 +35,43 @@ function Header() {
   let SecondHeding = {
     fontWeight: "bolder",
     fontSize: "3rem",
-    color: ""
+    color: "#f9004d"
+  }
+
+  let socialMedia = {
+    height: "30px",
+    width: "20%",
+    backgroundColor: "white",
+    margin: "0 auto",
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    gap: "10px",
+  }
+  
+  let socialMediaIcon = {
+    height: "100%",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    textDecoration: "none",
+    padding: "8px",
+    backgroundColor: "#e7e7e8",
+    borderRadius: "50%",
+    color: "black"
+  }
+
+  let contactBtn = {
+    height: "60px",
+    width: "200px",
+    marginLeft: "50px",
+    backgroundColor: "#f9004d",
+    color: "white",
+    border: "none",
+    borderRadius: "5px",
+    fontSize: "16px",
+    fontWeight: "bold",
+    
   }
 
   return (
@@ -45,19 +81,20 @@ function Header() {
           <img src="/images/profile-img.jpg" alt="" style={header_mian_img} />
         </div>
         <div className="text-center">
-          <p className="text-secondary mt-3">Welcome to my portfolio</p>
+          <p className="text-secondary mt-3 mb-3">Welcome to my portfolio</p>
           <h1 style={firstHeding}>Hi, I'm Muhammad Usman</h1>
           <h1 style={SecondHeding}>Web Developer.</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ex recusandae itaque, doloremque dicta accusamus.
           </p>
-          <section>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
+          <section style={socialMedia}>
+            <a href="#" style={socialMediaIcon}><i className="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" style={socialMediaIcon}><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#" style={socialMediaIcon}><i class="fa-brands fa-github"></i></a>
+            <a href="#" style={socialMediaIcon}><i class="fa-brands fa-instagram"></i></a> 
+            <a href="#" style={socialMediaIcon}><i class="fa-brands fa-skype"></i></a> 
           </section>
-          <a href="">Contact Me <i></i> </a>
+          <a href="" className='mt-4 btn' style={contactBtn}>Contact Me <i></i> </a>
         </div>
       </div>
     </>
