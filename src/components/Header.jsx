@@ -64,14 +64,18 @@ function Header() {
   let contactBtn = {
     height: "60px",
     width: "200px",
-    marginLeft: "50px",
+    marginLeft: "40px",
     backgroundColor: "#f9004d",
     color: "white",
     border: "none",
     borderRadius: "5px",
-    fontSize: "16px",
+    fontSize: "22px",
     fontWeight: "bold",
-    
+    TextAllign: "center",
+    paddingTop: "10px",
+  }
+  let contactIcon ={   
+    fontSize: "20px",
   }
 
   return (
@@ -94,7 +98,9 @@ function Header() {
             <a href="#" style={socialMediaIcon}><i class="fa-brands fa-instagram"></i></a> 
             <a href="#" style={socialMediaIcon}><i class="fa-brands fa-skype"></i></a> 
           </section>
-          <a href="" className='mt-4 btn' style={contactBtn}>Contact Me <i></i> </a>
+          <a href="" className='mt-4 btn' style={contactBtn}>Contact Me 
+          <i style={contactIcon} className="fa-solid fa-greater-than ms-3"></i>
+          </a>
         </div>
       </div>
     </>
