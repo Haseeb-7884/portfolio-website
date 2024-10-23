@@ -92,11 +92,11 @@ function Header() {
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ex recusandae itaque, doloremque dicta accusamus.
           </p>
           <section style={socialMedia}>
-            <a href="#" style={socialMediaIcon}><i className="fa-brands fa-linkedin-in"></i></a>
-            <a href="#" style={socialMediaIcon}><i class="fa-brands fa-whatsapp"></i></a>
-            <a href="#" style={socialMediaIcon}><i class="fa-brands fa-github"></i></a>
-            <a href="#" style={socialMediaIcon}><i class="fa-brands fa-instagram"></i></a> 
-            <a href="#" style={socialMediaIcon}><i class="fa-brands fa-skype"></i></a> 
+            <a target='_blank' href="https://www.linkedin.com/in/muhammad-usman-312985241/" style={socialMediaIcon}><i className="fa-brands fa-linkedin-in"></i></a>
+            <a target='_blank' href="#" style={socialMediaIcon}><i class="fa-brands fa-facebook"></i></a>
+            <a target='_blank' href="https://github.com/Haseeb-7884" style={socialMediaIcon}><i class="fa-brands fa-github"></i></a>
+            <a target='_blank' href="#" style={socialMediaIcon}><i class="fa-brands fa-instagram"></i></a> 
+            <a target='_blank' href="#" style={socialMediaIcon}><i class="fa-brands fa-skype"></i></a> 
           </section>
           <a href="" className='mt-4 btn' style={contactBtn}>Contact Me 
           <i style={contactIcon} className="fa-solid fa-greater-than ms-3"></i>
