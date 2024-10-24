@@ -5,6 +5,7 @@ function Projects() {
 
     let skillContainer = {
         borderTop: "1px solid black",
+        borderBottom: "1px solid black",
         height: "70vh",
         backgroundColor: "orange",
     }
@@ -27,15 +28,35 @@ function Projects() {
         height: "40vh",
         margin: "0 auto",
         width: "88%",
-        paddingTop: "50px",
+        paddingTop: "70px",
     }
 
     let skillSubContainerContent = {
         height: "15vh",
         width: "60%",
-        margin: "15px 0px 20px 95px",
-        backgroundColor: "purple",
+        margin: "15px 0px 18px 95px",
     }
+
+    let skillSubContainerSections = {
+        height:"15vh",
+        width:"100%",
+        display : "flex",
+        justifyContent: "space-between",
+        alignItems:"center",
+        gap:"40px",
+        backgroundColor:"purple"
+    }
+
+    let skillSubContainerSectionsItems = {
+        backgroundColor:"#ffefef",
+        height:"100%",
+        flex:"1",
+        display:"flex",
+        alignItems:"center",
+        justifyContent:"space-around",
+        padding: "10px 40px 10px 40px"
+    }
+
 
     return (
         <>
@@ -48,9 +69,37 @@ function Projects() {
                     </div>
 
                     <div style={skillSubContainerContent}>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit ut, incidunt necessitatibus nisi aperiam veniam temporibus qui magnam nulla alias.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit ut, incidunt necessitatibus nisi aperiam veniam temporibus qui magnam nulla alias.
                     Lorem ipsum dolor sit amet consectetur.
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, dolore!
+                    </div>
+
+                    <div style={skillSubContainerSections}>
+                        <section style={skillSubContainerSectionsItems}>
+                        <i style={{fontSize:"40px"}} class="fa-brands fa-html5"></i>
+                         <strong style={{fontSize:"25px"}}> HTML</strong>
+                        </section>
+
+                        <section style={skillSubContainerSectionsItems}>
+                        <i style={{fontSize:"40px"}} class="fa-brands fa-bootstrap"></i>
+                        <strong style={{fontSize:"25px"}}> Bootstap</strong>
+                        </section>
+
+                        <section style={skillSubContainerSectionsItems}>
+                        <i style={{fontSize:"40px"}} class="fa-brands fa-js"></i>
+                        <strong style={{fontSize:"25px"}}> JavaScript</strong>
+                        </section>
+
+                        <section style={skillSubContainerSectionsItems}>
+                        <i style={{fontSize:"40px"}} class="fa-brands fa-php"></i>
+                        <strong style={{fontSize:"25px"}}> PHP</strong>
+                        </section>
+
+                        <section style={skillSubContainerSectionsItems}>
+                        <i class="fa-brands fa-react"></i>
+                         React
+                        </section>
+                   
                     </div>
 
                 </div>
