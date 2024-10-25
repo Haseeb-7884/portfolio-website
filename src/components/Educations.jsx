@@ -23,23 +23,54 @@ function Educations() {
     }
 
     let EducationContainer = {
-        height: "40vh",
+        height: "75vh",
+        backgroundColor: "orange",
     }
 
     let EducationSubContainer = {
-        backgroundColor: "purple",
+        backgroundColor: "white",
         width: "88%",
         margin: "0 auto",
-        height: "30vh"
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        height: "100%",
+
     }
+    let EducationSubContainerLeft = {
+        flex: "1",
+        height: "100%",
+        backgroundColor: "purple",
+        paddingTop: "50px"
+    }
+    let EducationSubContainerRight = {
+        backgroundColor: "blue",
+        flex: "1",
+        height: "100%",
+        paddingTop: "50px"
+    }
+
 
     return (
         <>
             <div style={EducationContainer}>
                 <div style={EducationSubContainer}>
-                    <div style={headingDiv}><span style={headingExpertiseMain}> &mdash;&mdash;&mdash; </span>
-                        <h1 style={headingExpertiseText}>My Skills</h1>
+                    <div style={EducationSubContainerLeft}>
+
+                        <div style={headingDiv}><span style={headingExpertiseMain}> &mdash;&mdash;&mdash; </span>
+                            <h1 style={headingExpertiseText}>My Education</h1>
+                        </div>
+
                     </div>
+                    <div style={EducationSubContainerRight}>
+
+                        <div style={headingDiv}><span style={headingExpertiseMain}> &mdash;&mdash;&mdash; </span>
+                            <h1 style={headingExpertiseText}>My Experience</h1>
+                        </div>
+
+                    </div>
+
+
                 </div>
             </div>
         </>
