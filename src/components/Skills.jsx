@@ -4,8 +4,8 @@ import Expertise from './Expertise.jsx';
 function Projects() {
 
     let skillContainer = {
-        borderTop: "1px solid black",
-        borderBottom: "1px solid black",
+        borderTop: "1px solid grey",
+        borderBottom: "1px solid grey",
         height: "65vh",
     }
 
