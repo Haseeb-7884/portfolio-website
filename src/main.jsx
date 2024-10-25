@@ -5,6 +5,7 @@ import Header from './components/Header.jsx'
 import Expertise from './components/Expertise.jsx'
 import Projects from './components/Projects.jsx'
 import Skills from './components/Skills.jsx'
+import Educations from './components/Educations.jsx'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
@@ -13,5 +14,6 @@ createRoot(document.getElementById('root')).render(
     <Expertise />
     <Projects />
     <Skills />
+    <Educations />
   </StrictMode>
 )

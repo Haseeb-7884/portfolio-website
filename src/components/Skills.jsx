@@ -6,8 +6,7 @@ function Projects() {
     let skillContainer = {
         borderTop: "1px solid black",
         borderBottom: "1px solid black",
-        height: "70vh",
-        backgroundColor: "orange",
+        height: "65vh",
     }
 
     let headingDiv = {
@@ -43,8 +42,7 @@ function Projects() {
         display : "flex",
         justifyContent: "space-between",
         alignItems:"center",
-        gap:"40px",
-        backgroundColor:"purple"
+        gap:"40px"
     }
 
     let skillSubContainerSectionsItems = {
@@ -81,13 +79,13 @@ function Projects() {
                         </section>
 
                         <section style={skillSubContainerSectionsItems}>
-                        <i style={{fontSize:"40px"}} class="fa-brands fa-bootstrap"></i>
-                        <strong style={{fontSize:"25px"}}> Bootstap</strong>
+                        <i style={{fontSize:"35px"}} class="fa-brands fa-bootstrap"></i>
+                        <strong style={{fontSize:"20px"}}> Bootstap</strong>
                         </section>
 
                         <section style={skillSubContainerSectionsItems}>
-                        <i style={{fontSize:"40px"}} class="fa-brands fa-js"></i>
-                        <strong style={{fontSize:"25px"}}> JavaScript</strong>
+                        <i style={{fontSize:"35px"}} class="fa-brands fa-js"></i>
+                        <strong style={{fontSize:"20px"}}> JavaScript</strong>
                         </section>
 
                         <section style={skillSubContainerSectionsItems}>
@@ -96,8 +94,9 @@ function Projects() {
                         </section>
 
                         <section style={skillSubContainerSectionsItems}>
-                        <i class="fa-brands fa-react"></i>
-                         React
+                        <i style={{fontSize:"40px"}} class="fa-brands fa-react"></i>
+                        <strong style={{fontSize:"25px"}}> React</strong>
+                         
                         </section>
                    
                     </div>
