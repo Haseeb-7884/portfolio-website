@@ -3,8 +3,8 @@ import { useState } from 'react'
 function Blogs() {
 
   let BlogsContainer = {
-    backgroundColor: "orange",
-    height: "65vh",
+    // backgroundColor: "orange",
+    height: "62vh",
     borderBottom: "1px solid grey"
   }
 
@@ -12,7 +12,7 @@ function Blogs() {
     height: "100%",
     width: "88%",
     margin: "0 auto",
-    backgroundColor: "cyan",
+    // backgroundColor: "cyan",
 
   }
 
@@ -33,7 +33,7 @@ function Blogs() {
   } 
   let BlogSubcontainerContent = {
     height: "35vh",
-    backgroundColor:"red",
+    // backgroundColor:"red",
     marginTop:"20px",
     display: "flex",
     justifyContent: "space-between",
