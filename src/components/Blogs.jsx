@@ -30,21 +30,21 @@ function Blogs() {
     marginLeft: "20px",
     fontWeight: "bolder",
     fontSize: "2rem"
-  } 
+  }
   let BlogSubcontainerContent = {
     height: "35vh",
     // backgroundColor:"red",
-    marginTop:"20px",
+    marginTop: "20px",
     display: "flex",
     justifyContent: "space-between",
-    alignItems:"center",
+    alignItems: "center",
     gap: "50px"
   }
   let BlogContainer = {
-    backgroundColor : "#eaf6ff",
+    backgroundColor: "#eaf6ff",
     flex: "2",
     height: "100%",
-    padding:"20px",
+    padding: "20px",
   }
   let BlogHeading = {
     fontWeight: "bolder",
@@ -53,12 +53,12 @@ function Blogs() {
     fontSize: "16px",
   }
   let BlogBtn = {
-    color:"black",
+    color: "black",
     textDecoration: "none",
     fontWeight: "bolder",
   }
   let IconBtnBlog = {
-    fontSize:"12px",
+    fontSize: "12px",
   }
 
   // let Blogs = [
@@ -111,7 +111,7 @@ function Blogs() {
               </p>
               <a href="" style={BlogBtn}>Read More <i class="fa-solid fa-greater-than"></i></a>
             </section>
-        
+
           </div>
 
 
