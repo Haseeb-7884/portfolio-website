@@ -7,6 +7,7 @@ import Projects from './components/Projects.jsx'
 import Skills from './components/Skills.jsx'
 import Educations from './components/Educations.jsx'
 import Blogs from './components/Blogs.jsx'
+import Contact from './components/Contact.jsx'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
@@ -17,5 +18,6 @@ createRoot(document.getElementById('root')).render(
     <Skills />
     <Educations />
     <Blogs />
+    <Contact />
   </StrictMode>
 )
