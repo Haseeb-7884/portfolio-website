@@ -3,12 +3,14 @@ import { useState } from 'react'
 function Contact() {
 
     let ContactContainer = {
-        backgroundColor: "orange",
-        height: "62vh",
-        borderBottom: "1px solid grey"
+        // backgroundColor: "orange",
+        height: "75vh",
+        borderBottom: "1px solid grey",
+        paddingTop:"30px",
+        paddingBottom:"30px",
     }
     let ContactSubContainer = {
-        backgroundColor: "purple",
+        // backgroundColor: "purple",
         width: "88%",
         margin: "0 auto",
         display: "flex",
@@ -34,21 +36,39 @@ function Contact() {
     }
     let ContactSubContainerleft = {
         height: "100%",
-        backgroundColor: "red",
         flex: "1",
     }
+
     let ContactSubContainerRight = {
         height: "100%",
-        backgroundColor: "purple",
         flex: "1",
         display: "flex",
         flexDirection: "column",
-        padding: "20px",
+        padding: "20px"
     }
 
     let formContainer = {
-        border: "1px solid black",
+        border: "1px solid gray",
         padding: "15px",
+        height: "72%",
+        marginBottom:"10px",
+        paddingBottom: "20px"
+    }
+
+    let formSectionContainer = {
+        display: "flex",
+        justifyContent: "space-between",
+        gap: "20px",
+        width: "100%",
+        height: "50px",
+        padding: "0px",
+        marginBottom: "20px"
+    }
+    let ContactLeftContainerImg = {
+        width: "90%",
+        paddingTop: "30px",
+        paddingBottom: "20px",
+        height: "100%",
     }
 
 
@@ -58,16 +78,31 @@ function Contact() {
                 <div style={ContactSubContainer}>
 
                     <div style={ContactSubContainerleft}>
-
+                        <img style={ContactLeftContainerImg} src="./images/contact.PNG" alt="" />
                     </div>
 
                     <div style={ContactSubContainerRight}>
-                        <h2>Hire Me!</h2>
+                        <h2 className="mt-3 fw-bold">Hire Me!</h2>
                         <p>I am avilable for freelancing work. Please connect with me via phone:
-                            <strong>+91 9999999999</strong> or email: <strong>usmananees040@gmail.com</strong></p>
+                            <strong>+92 330 600 7684</strong> or email: <strong>usmananees040@gmail.com</strong></p>
 
                         <div style={formContainer}>
-                            <section></section>
+                            <section style={formSectionContainer}>
+                                <input style={{ flex: "1", backgroundColor: "#eeeeee", border: "none", paddingLeft: "10px" }} type="text" placeholder='Name' name="name" />
+                                <input style={{ flex: "1", backgroundColor: "#eeeeee", border: "none", paddingLeft: "10px" }} type="email" placeholder='Email' name="email" />
+                            </section>
+
+                            <section style={formSectionContainer}>
+                                <input style={{ flex: "1", backgroundColor: "#eeeeee", border: "none", paddingLeft: "10px" }} type="number" placeholder='Phone Number' name="name" />
+                                <input style={{ flex: "1", backgroundColor: "#eeeeee", border: "none", paddingLeft: "10px" }} type="email" placeholder='Subject' name="email" />
+                            </section>
+
+                            <textarea style={{ height: "35%", width: "100%", backgroundColor: "#eeeeee", border: "none", paddingTop: "10px", paddingLeft: "10px" }} placeholder='Write your Message...' name="" id=""></textarea>
+
+                            <div className='d-flex justify-content-center align-items-center mt-2 mb-5'>
+                                <input type="submit" value="Send Message" className='btn text-light fw-bold' style={{height:"100%", padding:"10px 15px 10px 15px", backgroundColor:"#f9004d", border:"none"}}/>
+                            </div>
+
                         </div>
 
                     </div>
