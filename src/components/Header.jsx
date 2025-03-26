@@ -86,7 +86,7 @@ function Header() {
         </div>
         <div className="text-center">
           <p className="text-secondary mt-3 mb-3">Welcome to my portfolio</p>
-          <h1 style={firstHeding}>Hi, I'm Ali Raza</h1>
+          <h1 style={firstHeding}>Hi, I'm Muhammad Usman</h1>
           <h1 style={SecondHeding}>Web Developer.</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ex recusandae itaque, doloremque dicta accusamus.
