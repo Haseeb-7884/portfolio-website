@@ -4,7 +4,7 @@ function Contact() {
 
     let ContactContainer = {
         // backgroundColor: "orange",
-        height: "75vh",
+        height: "76vh",
         borderBottom: "1px solid grey",
         paddingTop:"30px",
         paddingBottom:"30px",
@@ -44,7 +44,6 @@ function Contact() {
         flex: "1",
         display: "flex",
         flexDirection: "column",
-        padding: "20px"
     }
 
     let formContainer = {
